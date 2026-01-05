@@ -2,9 +2,9 @@
 title: Valve Sizing Tool
 layout: home
 parent: MultiTool
-nav-order: 4
 ---
 
+nav-order: 4
 ### <p style="text-align: center;">Valve Sizing Tool</p>
 ---
 Tool for choosing piping and valve sizing based on fluid GPM. This is intended to be used by sales as a means of providing AD-approved valve sizing.  
@@ -17,7 +17,13 @@ Tool for choosing piping and valve sizing based on fluid GPM. This is intended t
 </img>
 
 
+
+
 {: .warning }
 Check with the AD team when using GPMs outside of normal ranges, particularily with valve sizes above 10".
 
 
+{: .note}
+Valve ranges are in the range of 0.5" to 10". Roughly this translate to 7.6-1600 GPM. 
+
+#### Code

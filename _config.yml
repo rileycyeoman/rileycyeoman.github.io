@@ -1,4 +1,4 @@
-title: AD Software Docs
+title: AD Software Documentation
 description: Host for all AD software documentations.
 theme: just-the-docs
 
@@ -8,6 +8,17 @@ aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
   warning:
     title: Warning
     color: red
