@@ -5,18 +5,19 @@ parent: MultiTool
 nav-order: 4
 ---
 {: .text-center }
-> ### Valve Sizing Tool
+### Valve Sizing Tool
 
 ---
 Tool for choosing piping and valve sizing based on fluid GPM. This is intended to be used by sales as a means of providing AD-approved valve sizing.  
+<div class = "code-example" markdown = "1">
 <img 
     style="display: block; 
            margin-left: auto;
            margin-right: auto;"
-    src="/images\valve.png" 
+    src="/images/valve.png" 
     alt="PIC Valve">
 </img>
-
+</div>
 The only allowable input is fluid GPM. Pipe size is outputted in the line box and the text browser displays the corresponding Griswold valve based on a search table.
 
 
