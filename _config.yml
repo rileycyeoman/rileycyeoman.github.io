@@ -27,3 +27,4 @@ callouts:
 
 mermaid:
   version: "9.1.6"
+  path: "/assets/js/mermaid.esm.min.mjs"
