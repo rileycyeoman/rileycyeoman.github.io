@@ -19,7 +19,7 @@ The only allowable input is fluid GPM. Pipe size is outputted in the line box an
 
 
 {: .warning }
->Check with the AD team when using GPMs outside of normal ranges, particularily with valve sizes above 10". The velocity output will turn yellow to indicate a value of above 8fps or below 3fps as this is the recommended range for pipe flow.
+>Check with the AD team when using GPMs outside of normal ranges, particularily with valve sizes above 4". The velocity output will turn yellow to indicate a value of above 8fps or below 3fps as this is the recommended range for pipe flow.
 
 
 {: .note }
@@ -47,8 +47,37 @@ $$
 
 Where:  
 - **Q** = flow rate (GPM)  
-- **D** = pipe diameter (inches)  
+- **D** = pipe inner diameter (inches)  
 The constants **144** and **448.86** convert the result from gallons per minute to feet per second.
+
+{: .note }
+>Pipe sizes are shown in nominal size, but for calculations, inner diameter is used. Nominal size is what the manufacturer specifies first, inner diameter is what calculates flow and velocity.
+
+
+The nominal size and respective inner diameter are shown below: 
+<img
+  style="display:block;margin-left:auto;margin-right:auto;"
+  src="{{ site.baseurl }}/images/pipesizing.png"
+  alt="Pipe Sizing">
+
+|Nominal Size|	Inner Diameter	|Outer Diameter|
+|:----------|:------------|:---------|
+|0.5|	0.545|	0.625	|
+|0.75	|	.785| .875	|
+|1.0|	1.025|	1.125	|
+|1.25|1.265	|1.625	|	
+|1.5|1.505	| 1.625	|
+|2.0|	1.985|2.125	|
+|2.5|	2.465	|2.625	|
+|3.0|	2.945|	3.125|
+|4.0|	3.905|4.125|
+|5.0|	4.875|5.125|
+|6.0|	5.845|6.125|
+|8.0|	7.725|8.125|
+|10.0|9.625|10.125|
+
+
+
 #### Code
 --- 
 Piping sizes are pulled based on the following table:
